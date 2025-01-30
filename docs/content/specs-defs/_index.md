@@ -1,18 +1,20 @@
 ---
+draft: false
 title: Specifications & Definitions
-geekdocNav: true
-geekdocAlign: left
-geekdocAnchor: true
+linkTitle: Specifications & Definitions
+type: default
+weight: 4
 url: /specs/
+description: Specifications & Definitions for the Azure Verified Modules (AVM) program
 ---
+
+## Summary
 
 This section lists AVM's Specifications & Definitions.
 
-- [Team Definitions & RACI](/Azure-Verified-Modules/specs/shared/team-definitions/)
-- [Module Classifications](/Azure-Verified-Modules/specs/shared/module-classifications/)
-- [Module Lifecycle](/Azure-Verified-Modules/specs/shared/module-lifecycle/)
-- [Module Specifications](/Azure-Verified-Modules/specs/module-specs/)
-  - [Shared (Bicep & Terraform)](/Azure-Verified-Modules/specs/shared)
-    - [Interfaces](/Azure-Verified-Modules/specs/shared/interfaces)
-  - [Bicep Specific](/Azure-Verified-Modules/specs/bicep)
-  - [Terraform Specific](/Azure-Verified-Modules/specs/terraform)
+- [Team Definitions & RACI]({{% siteparam base %}}/specs/shared/team-definitions/)
+- [Module Classifications]({{% siteparam base %}}/specs/shared/module-classifications/)
+- [Module Lifecycle]({{% siteparam base %}}/specs/shared/module-lifecycle/)
+- [Module Specifications]({{% siteparam base %}}/specs/module-specs/)
+  - [Bicep Specific]({{% siteparam base %}}/specs/bcp)
+  - [Terraform Specific]({{% siteparam base %}}/specs/tf)
