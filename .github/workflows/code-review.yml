@@ -32,7 +32,7 @@
             VALIDATE_YAML: true
             VALIDATE_BASH: true
             VALIDATE_EDITORCONFIG: true
-            FILTER_REGEX_EXCLUDE: ".*docs/themes/hugo-geekdoc/.*|.*/telemetry-information-notice\\.md|.*/platform\\.updateModuleRegistryTables\\.yml"
+            FILTER_REGEX_EXCLUDE: ".*docs/themes/hugo-theme-relearn/.*|.*/telemetry-information-notice\\.md|.*/platform\\.updateModuleRegistryTables\\.yml"
 
     markdown-link-check:
       name: Markdown Link Check
@@ -45,8 +45,20 @@
             fetch-depth: 0
 
         - name: Check links in markdown files
-          uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
+          uses: gaurav-nelson/github-action-markdown-link-check@1.0.16
           with:
             config-file: ".github/linters/mlc_config.json"
             use-verbose-mode: "yes"
             use-quiet-mode: "yes"
+
+    # check-links:
+    #   name: runner / linkspector
+    #   runs-on: ubuntu-latest
+    #   steps:
+    #     - uses: actions/checkout@v4
+    #     - name: Run linkspector
+    #       uses: umbrelladocs/action-linkspector@v1
+    #       with:
+    #         github_token: ${{ secrets.github_token }}
+    #         reporter: github-pr-review
+    #         fail_level: any

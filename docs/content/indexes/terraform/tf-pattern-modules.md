@@ -1,94 +1,79 @@
 ---
+draft: false
 title: Terraform Pattern Modules
-geekdocNav: false
-geekdocAlign: left
-geekdocAnchor: true
+linktitle: Pattern Modules
+weight: 2
+description: Terraform Pattern Module Index showing all available, orphaned and planned modules
 ---
-
-<!-- {{< csvUpdated csv="/static/module-indexes/TerraformPatternModules.csv" >}} -->
-
-<!-- {{< hint type=tip >}}
-
-**Use the breadcrumb menu** above to navigate back to the main page!
-
-{{< /hint >}} -->
-
-{{< hint type=note >}}
-
-This page contains various views of the module index (catalog) for **Terraform Pattern Modules**. To see these views, **click on the expandable sections** with the "➕" sign below.
-
-- {{< icon "gdoc_github" >}} To see the **full, unfiltered, unformatted module index** on GitHub, click [here](https://github.com/Azure/Azure-Verified-Modules/blob/main/docs/static/module-indexes/TerraformPatternModules.csv).
-
-- {{< icon "gdoc_download" >}} To download the source CSV file, click [here](/Azure-Verified-Modules/module-indexes/TerraformPatternModules.csv).
-
-{{< /hint >}}
-
-{{< toc >}}
 
 ## Module catalog
 
-{{< hint type=note >}}
-Modules listed below that aren't shown with the status of **`Module Available 🟢`**, are currently in development and are not yet available for use. For proposed modules, see the [Proposed modules](/Azure-Verified-Modules/indexes/terraform/tf-pattern-modules/#proposed-modules---) section below.
-{{< /hint >}}
+{{% moduleStats language="Terraform" moduleType="Pattern" showLanguage=true showClassification=true %}}
 
-The following table shows the number of all available, orphaned and proposed **Terraform Pattern Modules**.
+{{% expand title="➕ Additional information" %}}
 
-{{< moduleStats language="Terraform" moduleType="Pattern" showLanguage=true showClassification=true >}}
+{{% notice style="info" %}}
 
-<br>
+This page contains various views of the module index (catalog) for **Terraform Pattern Modules**. To see these views, **click on the expandable sections** with the "➕" sign below.
 
-### Module Publication History - 📅
+- {{% icon icon="fa-brands fa-github" %}} To see the **full, unfiltered, unformatted module index** on GitHub, click [here]({{% siteparam baseURL %}}blob/main/docs/static/module-indexes/TerraformPatternModules.csv).
 
-{{< expand "➕ Module Publication History - Module names, status and owners" "expand/collapse" "closed" >}}
+- {{% icon icon="download" %}} To download the source CSV file, click [here]({{% siteparam base %}}/module-indexes/TerraformPatternModules.csv).
 
-{{< moduleHistory header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern" exclude="Proposed :new:" monthsToShow=9999 >}}
+{{% /notice %}}
 
-{{< /expand >}}
+{{% notice style="note" %}}
 
-<br>
+Modules listed below that aren't shown with the status of **`Module Available 🟢`**, are currently in development and are not yet available for use. For proposed modules, see the [Proposed modules]({{% siteparam base %}}/indexes/terraform/tf-pattern-modules/#proposed-modules---) section below.
+
+{{% /notice %}}
+
+{{% /expand %}}
 
 ### Published modules - 🟢 & 👀
 
-{{< expand "➕ Published Modules - Module names, status and owners" "expand/collapse" "open" >}}
+{{% expand title="➕ Published Modules - Module names, status and owners" expanded="true" %}}
 
-{{< moduleNameStatusOwners header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern" exclude="Proposed :new:" >}}
+{{% moduleNameStatusOwners header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern" exclude="Proposed :new:" %}}
 
-{{< /expand >}}
-
-<br>
+{{% /expand %}}
 
 ### Proposed modules - 🆕
 
-{{< expand "➕ Proposed Modules - Module names, status and owners" "expand/collapse" >}}
+{{% expand title="➕ Proposed Modules - Module names, status and owners" expanded="false" %}}
 
-{{< moduleNameStatusOwners header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern" exclude="Available :green_circle:,Orphaned :eyes:" >}}
+{{% moduleNameStatusOwners header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern" exclude="Available :green_circle:,Orphaned :eyes:" %}}
 
-{{< /expand >}}
-
-<br>
+{{% /expand %}}
 
 ### All modules - 📇
 
-{{< expand "➕ All Modules - Module names, status and owners" "expand/collapse" >}}
+{{% expand title="➕ All Modules - Module names, status and owners" expanded="false" %}}
 
-{{< moduleNameStatusOwners header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern" >}}
+{{% moduleNameStatusOwners header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern" %}}
 
-{{< /expand >}}
+{{% /expand %}}
 
-<br>
+### Module Publication History - 📅
+
+{{% expand title="➕ Module Publication History - Module names, status and owners" expanded="false" %}}
+
+{{% moduleHistory header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern" exclude="Proposed :new:" monthsToShow=9999 %}}
+
+{{% /expand %}}
 
 ## For Module Owners & Contributors
 
-{{< hint type=note >}}
+{{% notice style="note" %}}
 
 This section is mainly intended **for module owners and contributors** as it contains information important for module development, such as **telemetry ID prefix, and GitHub Teams for Owners & Contributors**.
 
-{{< /hint >}}
+{{% /notice %}}
 
 ### Module name, Telemetry ID prefix, GitHub Teams for Owners & Contributors
 
-{{< expand "➕ All Modules - Module name, Telemetry ID prefix, GitHub Teams for Owners & Contributors" "expand/collapse" >}}
+{{% expand title="➕ All Modules - Module name, Telemetry ID prefix, GitHub Teams for Owners & Contributors" expanded="false" %}}
 
-{{< moduleNameTelemetryGHTeams header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern">}}
+{{% moduleNameTelemetryGHTeams header=true csv="/static/module-indexes/TerraformPatternModules.csv" language="Terraform" moduleType="pattern"%}}
 
-{{< /expand >}}
+{{% /expand %}}

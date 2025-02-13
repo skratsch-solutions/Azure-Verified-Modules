@@ -1,17 +1,15 @@
 ---
 title: Resources
-geekdocNav: true
-geekdocAlign: left
-geekdocAnchor: true
+description: Collection of Additional Resources for the Azure Verified Modules (AVM) program
 ---
 
 This page references additional resources available for Azure Verified Modules (AVM).
 
-{{< hint type=note >}}
+{{% notice style="note" %}}
 
 Additional internal content available for Microsoft FTEs only, [here](https://dev.azure.com/CSUSolEng/Azure%20Verified%20Modules/_wiki/wikis/AVM%20Internal%20Wiki/368/LevelUp).
 
-{{< /hint >}}
+{{% /notice %}}
 
 ## 🎥 Videos
 

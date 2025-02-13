@@ -1,22 +1,20 @@
 ---
 title: Bicep Contribution Guide
-geekdocNav: true
-geekdocAlign: left
-geekdocAnchor: true
-geekdocToC: 2
-geekdocCollapseSection: true
+linktitle: Bicep Modules
+description: Bicep Contribution Guidance for the Azure Verified Modules (AVM) program
 ---
 
-{{< toc >}}
 
-{{< hint type=important >}}
+{{% notice style="important" %}}
 While this page describes and summarizes important aspects of contributing to AVM, it may not reference *All* of the shared and language specific requirements.
 
-Therefore, this contribution guide **MUST** be used in conjunction with the [Shared Specification](/Azure-Verified-Modules/specs/shared/) and the [Bicep specific](/Azure-Verified-Modules/specs/bicep/) specifications. **ALL AVM modules** (Resource and Pattern modules) **MUST meet the respective requirements described in these  specifications**!
-{{< /hint >}}
+Therefore, this contribution guide **MUST** be used in conjunction with the [Bicep specifications]({{% siteparam base %}}/specs/bcp/). **ALL AVM modules** (Resource and Pattern modules) **MUST meet the respective requirements described in these  specifications**!
+{{% /notice %}}
+
+## Summary
 
 This section lists AVM's Bicep-specific contribution guidance.
 
-- [Prerequisites](/Azure-Verified-Modules/contributing/bicep/prerequisites/)
-- [Composition](/Azure-Verified-Modules/contributing/bicep/composition/)
-- [Bicep contribution flow](/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/)
+- [Prerequisites]({{% siteparam base %}}/contributing/bicep/prerequisites/)
+- [Composition]({{% siteparam base %}}/contributing/bicep/composition/)
+- [Bicep contribution flow]({{% siteparam base %}}/contributing/bicep/bicep-contribution-flow/)
